@@ -1,0 +1,23 @@
+@font-face {
+  font-family: 'DINRoundPro';
+  src: url('../src/styles/fonts/DINRoundPro.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'DINRoundPro-Black';
+  src: url('../src/styles/fonts/DINRoundPro-Black.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'DINRoundPro-Bold';
+  src: url('../src/styles/fonts/DINRoundPro-Bold.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'DINRoundPro-Medi';
+  src: url('../src/styles/fonts/DINRoundPro-Medi.ttf') format('truetype');
+}
+
+body {
+  font-family: "DINRoundPro";
+}

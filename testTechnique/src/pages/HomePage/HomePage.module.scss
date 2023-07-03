@@ -1,0 +1,88 @@
+.container {
+  display: flex;
+  .left {
+    width: 20%;
+    padding: 1%;
+    .title,
+    .description {
+      color: #fb3cee;
+      font-weight: bold;
+      font-size: 29px;
+      letter-spacing: -0.35px;
+      font-family: "DINRoundPro-Black";
+    }
+    .description {
+      margin: 10% 0;
+    }
+    .separator {
+      border: 6px solid #fb3cee;
+      border-radius: 10px;
+      width: 20%;
+    }
+    .game {
+      text-align: center;
+      margin: 10% 0;
+      .gameBrand,
+      .gameName {
+        color: #3300cc;
+        font-size: 18px;
+        font-family: "DINRoundPro-Medi";
+      }
+      .gameBrand {
+        font-weight: bold;
+        font-size: 22px;
+        text-transform: uppercase;
+        font-family: "DINRoundPro-Black";
+      }
+    }
+    .place {
+      font-size: 20px;
+      color: #ffffff;
+      font-weight: bold;
+      text-align: center;
+      background-color: #3300cc;
+      border-radius: 10px;
+      margin-bottom: 10%;
+      font-family: "DINRoundPro-Black";
+    }
+    .stats {
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      .statsNumber {
+        display: flex;
+        align-items: center;
+        margin: 5% 16%;
+        .numbers {
+          font-size: 32px;
+          font-family: "DINRoundPro-Black";
+          letter-spacing: -0.38px;
+        }
+        .statsDescription {
+          font-family: "DINRoundPro-Bold";
+          font-size: 16px;
+          margin: 0 6%;
+        }
+      }
+    }
+  }
+  .right {
+    width: 80%;
+    .top {
+      display: flex;
+      justify-content: flex-end;
+      align-items: center;
+      padding: 1%;
+      .menu{
+        width: 50%;
+        margin: 0 4%;
+      }
+      .homeLogo{
+        width: 5%;
+      }
+    }
+    .bottom {
+      background-color: #3300cc;
+    }
+  }
+}
